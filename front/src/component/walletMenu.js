@@ -2,7 +2,7 @@
 // Copyright (C) 2022-2022 Seunggwan, Back - All Rights Reserved
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { DollarOutlined, StockOutlined } from "@ant-design/icons";
+import { DollarOutlined } from "@ant-design/icons";
 import { Menu } from "antd";
 
 const items = [
