@@ -2,10 +2,11 @@
 // Copyright (C) 2022-2022 Seunggwan, Back - All Rights Reserved
 import { Divider } from "antd";
 import React from "react";
-import KSPInfo from "../component/kspInfo.js";
 
 // module
 import WalletInfo from "../component/walletInfo.js";
+import KSPInfo from "../component/kspInfo.js";
+import KSPPoolVotingInfo from "../component/kspPoolVotingInfo.js";
 
 const KSP = () => {
   return (
@@ -14,6 +15,8 @@ const KSP = () => {
       <WalletInfo />
       <Divider orientation="left">KSP</Divider>
       <KSPInfo />
+      <Divider orientation="left">Pool Voting</Divider>
+      <KSPPoolVotingInfo />
     </div>
   );
 };
