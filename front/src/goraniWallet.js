@@ -13,6 +13,7 @@ import NotFound from "./page/notFound.js";
 // module
 import rootReducer from "./reducer/rootReducer.js";
 import Asset from "./page/asset.js";
+import KSP from "./page/ksp.js";
 
 const themes = {
   dark: `${process.env.PUBLIC_URL}/dark-theme.css`,
@@ -30,6 +31,7 @@ function GoraniWallet() {
           <Routes>
             <Route path="/" element={<MainPage />}>
               <Route path="/asset" element={<Asset />} />
+              <Route path="/ksp" element={<KSP />} />
               <Route path="/*" element={<NotFound />} />
             </Route>
           </Routes>
