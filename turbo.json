@@ -6,6 +6,9 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": []
+    },
+    "deploy":{
+      "dependsOn": ["^build"]
     }
   }
 }
