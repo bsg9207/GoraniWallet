@@ -5,6 +5,11 @@ import GoraniWallet from "./goraniWallet";
 // css
 import './App.css';
 
+// buffer definition
+import { Buffer } from 'buffer';
+
+window.Buffer = window.Buffer | Buffer;
+
 function App() {
   return (
     <div className="App">
