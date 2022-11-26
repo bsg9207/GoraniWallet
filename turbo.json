@@ -8,7 +8,7 @@
       "outputs": []
     },
     "deploy":{
-      "dependsOn": ["^build"]
+      "dependsOn": ["build"]
     }
   }
 }
