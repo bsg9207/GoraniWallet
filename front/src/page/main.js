@@ -3,6 +3,7 @@
 import { Layout } from "antd";
 import { Outlet } from "react-router-dom";
 import MainHeader from "../component/mainHeader";
+import WalletMenu from "../component/walletMenu";
 
 // css
 import "./css/main.css";
@@ -16,6 +17,7 @@ const MainPage = () => {
       <MainHeader />
 
       <Content>
+        <WalletMenu />
         <Outlet />
       </Content>
 
