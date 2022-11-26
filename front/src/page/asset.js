@@ -2,6 +2,7 @@
 // Copyright (C) 2022-2022 Seunggwan, Back - All Rights Reserved
 import { Divider } from "antd";
 import React from "react";
+import TokenList from "../component/table/tokenList.js";
 
 // module
 import WalletInfo from "../component/walletInfo.js";
@@ -14,6 +15,8 @@ const Asset = () => {
     <div className="GoraniWallet_Asset">
       <Divider orientation="left">Wallet</Divider>
       <WalletInfo />
+      <Divider orientation="left">Token</Divider>
+      <TokenList />
     </div>
   );
 };
