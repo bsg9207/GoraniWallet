@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "author": "Seunggwan Back",
   "workspaces": [
-    "back/*",
+    "back",
     "common",
-    "front/*"
+    "front"
   ],
   "scripts": {
     "start": "turbo run start",
     "build": "turbo run build --no-cache",
-    "test": "turbo run test",
-    "lint": "turbo run lint",
     "dev": "turbo run dev"
   },
   "dependencies": {

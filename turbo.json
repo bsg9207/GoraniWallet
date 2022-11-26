@@ -6,18 +6,6 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": []
-    },
-    "test": {
-      "dependsOn": [],
-      "outputs": [],
-      "inputs": []
-    },
-    "lint": {
-      "outputs": []
-    },
-    "deploy": {
-      "dependsOn": ["build", "test", "lint"],
-      "outputs": []
     }
   }
 }
