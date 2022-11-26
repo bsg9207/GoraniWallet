@@ -8,3 +8,5 @@ export const CONTRACT_KlayswapUtils =
   "0x7A74B3be679E194E1D6A0C29A343ef8D2a5AC876";
 export const CONTRACT_KlayswapVotingKSP =
   "0x2f3713f388bc4b8b364a7a2d8d57c5ff4e054830";
+export const CONTRACT_KlayswapPoolVoting =
+  "0x71B59e4bC2995B57aA03437ed645AdA7Dd5B1890";
