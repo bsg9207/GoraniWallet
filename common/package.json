@@ -1,0 +1,8 @@
+{
+  "name": "common",
+  "type": "module",
+  "version": "1.0.0",
+  "keywords": [],
+  "author": "Seunggwan Back",
+  "description": "package for common library"
+}
