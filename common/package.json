@@ -7,6 +7,7 @@
   "description": "package for common library",
   "dependencies": {
     "axios": "^1.2.0",
+    "caver-js": "^1.9.0",
     "ethereumjs-abi": "^0.6.8",
     "web3-eth-abi": "^1.8.1"
   }
