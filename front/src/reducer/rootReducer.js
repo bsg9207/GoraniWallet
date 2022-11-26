@@ -4,9 +4,10 @@ import { combineReducers } from "redux";
 
 // reducer
 import network from "./networkReducer.js";
+import walletInfo from "./walletInfoReducer.js";
 
 // 여러 reducer들을 하나로 묶어줌
 // reducer 추가시 rootReducer에 추가하여 사용할 것!
-const rootReducer = combineReducers({ network });
+const rootReducer = combineReducers({ network, walletInfo });
 
 export default rootReducer;
