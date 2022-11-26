@@ -33,20 +33,12 @@ const NetworkSelector = () => {
   // create options
   const createOptions = () => {
     let optionsKlaytn = [];
-    let optionsHitop = [];
     for (let network in eNetworkType) {
       // pass unknwon
       if (eNetworkType[network] === eNetworkType.Unknown) {
         continue;
       }
 
-      // hitop
-      if (eNetworkType[network] === eNetworkType.Hitop) {
-        optionsHitop.push(network);
-        continue;
-      }
-
-      // klaytn
       optionsKlaytn.push(network);
     }
 
@@ -56,11 +48,6 @@ const NetworkSelector = () => {
       if (chain === "Klaytn") {
         for (let idx in optionsKlaytn) {
           const network = optionsKlaytn[idx];
-          options.push({ label: network, value: network, id: idx });
-        }
-      } else if (chain === "Hitop") {
-        for (let idx in optionsHitop) {
-          const network = optionsHitop[idx];
           options.push({ label: network, value: network, id: idx });
         }
       }
