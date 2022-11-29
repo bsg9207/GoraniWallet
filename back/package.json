@@ -1,7 +1,23 @@
 {
   "name": "back",
+  "type": "module",
   "version": "1.0.0",
   "keywords": [],
   "author": "Seunggwan Back",
-  "description": "package for backend of gorani wallet"
+  "description": "package for backend of gorani wallet",
+  "scripts": {
+    "start": "nodemon --exec node app.js --delay 1"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-error-handler": "^1.1.0",
+    "express-session": "^1.17.3",
+    "ipfs-api": "^26.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "rotating-file-stream": "^3.0.4"
+  }
 }
