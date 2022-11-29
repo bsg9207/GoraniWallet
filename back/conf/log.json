@@ -1,0 +1,9 @@
+{
+    "log": {
+        "path": "/Users/Gwan/Project/GoraniWallet/Back/log",
+        "name": "access.log",
+        "format": ":date[clf] :remote-addr :remote-user :method :url :status :res[content-length] :response-time ms",
+        "rotation": 10,
+        "interval": "1d"
+    }
+} 
