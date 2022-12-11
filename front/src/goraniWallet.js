@@ -29,10 +29,10 @@ function GoraniWallet() {
       <ThemeSwitcherProvider themeMap={themes} defaultTheme="dark">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<MainPage />}>
-              <Route path="/asset" element={<Asset />} />
-              <Route path="/ksp" element={<KSP />} />
-              <Route path="/*" element={<NotFound />} />
+            <Route path="/GoraniWallet" element={<MainPage />}>
+              <Route path="/GoraniWallet/asset" element={<Asset />} />
+              <Route path="/GoraniWallet/ksp" element={<KSP />} />
+              <Route path="/GoraniWallet/*" element={<NotFound />} />
             </Route>
           </Routes>
         </BrowserRouter>

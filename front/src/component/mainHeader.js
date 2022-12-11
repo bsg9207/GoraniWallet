@@ -17,7 +17,7 @@ const MainHeader = () => {
       <Row justify="space-between">
         <Col>
           <Space>
-            <Link to="/">GoraniWallet</Link>
+            <Link to="/GoraniWallet">GoraniWallet</Link>
           </Space>
         </Col>
         <Col>
