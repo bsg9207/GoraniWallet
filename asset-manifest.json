@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/GoraniWallet/static/css/main.13f735ce.css",
-    "main.js": "/GoraniWallet/static/js/main.206d7039.js",
+    "main.js": "/GoraniWallet/static/js/main.0f6aa751.js",
+    "static/js/701.bbbd105c.chunk.js": "/GoraniWallet/static/js/701.bbbd105c.chunk.js",
     "static/js/512.ac9f45ae.chunk.js": "/GoraniWallet/static/js/512.ac9f45ae.chunk.js",
+    "static/js/44.1e72bab9.chunk.js": "/GoraniWallet/static/js/44.1e72bab9.chunk.js",
     "index.html": "/GoraniWallet/index.html",
     "main.13f735ce.css.map": "/GoraniWallet/static/css/main.13f735ce.css.map",
-    "main.206d7039.js.map": "/GoraniWallet/static/js/main.206d7039.js.map",
-    "512.ac9f45ae.chunk.js.map": "/GoraniWallet/static/js/512.ac9f45ae.chunk.js.map"
+    "main.0f6aa751.js.map": "/GoraniWallet/static/js/main.0f6aa751.js.map",
+    "512.ac9f45ae.chunk.js.map": "/GoraniWallet/static/js/512.ac9f45ae.chunk.js.map",
+    "44.1e72bab9.chunk.js.map": "/GoraniWallet/static/js/44.1e72bab9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13f735ce.css",
-    "static/js/main.206d7039.js"
+    "static/js/main.0f6aa751.js"
   ]
 }
