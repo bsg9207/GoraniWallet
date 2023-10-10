@@ -2,5 +2,5 @@
 // Copyright (C) 2022-2022 Seunggwan, Back - All Rights Reserved
 export default {
   baobabURL: "https://kaikas.baobab.klaytn.net:8651",
-  cypressURL: "https://cypress.fandom.finance/archive",
+  cypressURL: "https://public-en-cypress.klaytn.net",
 };
